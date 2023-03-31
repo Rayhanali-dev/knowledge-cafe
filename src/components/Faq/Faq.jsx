@@ -9,7 +9,7 @@ const Faq = () => {
                     Props vs state
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                    <p>hello</p>
+                    <p>State is managed within the component. Props gets passed to the component. State can be changed(mutable). Props are read only and cannot be changed (immutable). State changes can be asynchronous. Props are read only</p>
                 </div>
             </div>
             <div className="collapse collapse-arrow mb-5">
@@ -18,7 +18,7 @@ const Faq = () => {
                     How does useState work?
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                    <p>hello</p>
+                    <p>useState is React Hook that allows you to add state to a functional component. It returns an array. </p>
                 </div>
             </div>
             <div className="collapse collapse-arrow mb-5">
@@ -27,7 +27,7 @@ const Faq = () => {
                     Purpose of useEffect other than fetching data.
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                    <p>hello</p>
+                    <p>useEffect hook is part of React’s Hooks API. The core principle of this hook is to let you perform side effects in your functional components.</p>
                 </div>
             </div>
             <div className="collapse collapse-arrow mb-5">
@@ -36,7 +36,7 @@ const Faq = () => {
                     How Does React work?
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                    <p>hello</p>
+                    <p>ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props.</p>
                 </div>
             </div>
         </div>
