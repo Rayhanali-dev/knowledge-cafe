@@ -31,7 +31,7 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <div>
-                    
+                    <BookMark></BookMark>
                 </div>
             </div>
         </div>
