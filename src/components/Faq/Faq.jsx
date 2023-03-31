@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
     return (
-        <div className='max-w-7xl mx-auto mb-7'>
+        <div className='max-w-7xl mx-auto mb-7 px-5 lg:px-0'>
             <div className="collapse collapse-arrow mb-5">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">

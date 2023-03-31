@@ -11,7 +11,7 @@ const Blog = (props) => {
     return (
         <div>
             <div className='w-full px-3 lg:px-0'>
-                <img src={images} alt="blog-img" />
+                <img className='w-full' src={images} alt="blog-img" />
                 <div className='flex justify-between items-center'>
                     <div className='flex items-center gap-2 my-3'>
                         <img className='w-16 h-16 rounded-full object-cover' src={AuthorImages} alt="" />
