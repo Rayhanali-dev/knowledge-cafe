@@ -24,15 +24,15 @@ const Card = () => {
     }
 
     return (
-        <div className='flex mx-auto max-w-7xl gap-6 mt-6'>
-            <div className='w-2/3'>
+        <div className='flex flex-col lg:flex-row mx-auto max-w-7xl gap-6 mt-6'>
+            <div className='w-full lg:w-2/3'>
                 {
                     card.map(singleCard => <Blog singleCard={singleCard} timeHandler={timeHandler} bookmarkHandler={bookmarkHandler}  key={singleCard.id}></Blog>)
                 }
             </div>
-            <div className='w-1/3'>
+            <div className='lg:w-1/3 w-full sticky top-0'>
                 <Times cardTime={cardTime}></Times>
-                <div>
+                <div className='border-2 border-warning p-5 mx-3 mb-5 lg:mb-0 mt-5'>
                 <h2 className='text-center text-2xl font-bold p-4'>Bookmarked Blogs: {bookmark.length}</h2>
                     {
                         bookmark.map(bkm => <BookMark bkm={bkm} key={bkm.title}></BookMark>)

@@ -7,8 +7,7 @@ const Times = (props) => {
         totalTime = totalTime + blog.readtime
     }
     return (
-        
-        <div className='bg-red-50 shadow-xl'>
+        <div className='bg-red-50 shadow-xl mx-3'>
             <h3 className='text-center text-2xl font-bold p-4'>Spent time on read : <span>{totalTime}</span> min</h3>
         </div>
     );
