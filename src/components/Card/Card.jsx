@@ -23,7 +23,6 @@ const Card = () => {
     const bookmarkHandler = (book) => {
         const exits = bookmark.find(card => card.id === book.id)
         if(exits) {
-            console.log('hellow');
             toast.error("Already added");
         } else {
             const updateBookmark = [...bookmark, book];
